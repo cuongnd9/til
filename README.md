@@ -1,2 +1,12 @@
 # til
-T O D A Y    I    L E A R N
+
+today i learned (til) | kimcuong
+
+- [ ] [RxJS](./rxjs)
+- [ ] [Design Pattern](./design-pattern)
+- [ ] [NestJS](./nestjs)
+- [ ] [ReactJS](./reactjs)
+- [ ] [MobX](./mobx)
+- [ ] [MySQL](./mysql)
+- [ ] [PM2](./pm2)
+- [ ] [Stylus](./stylus)
