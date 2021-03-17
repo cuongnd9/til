@@ -2,7 +2,7 @@
 
 today i learned (til) | kimcuong
 
-- [ ] [RxJS](./rxjs)
+- [x] [RxJS](./rxjs)
 - [ ] [Design Pattern](./design-pattern)
 - [ ] [NestJS](./nestjs)
 - [ ] [ReactJS](./reactjs)
