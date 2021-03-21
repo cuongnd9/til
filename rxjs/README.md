@@ -15,6 +15,20 @@ Think of RxJS as Lodash for events.
 - Subject: is the equivalent to an EventEmitter, and the only way of multicasting a value or event to multiple Observers.
 - Schedulers: are centralized dispatchers to control concurrency, allowing us to coordinate when computation happens on e.g. setTimeout or requestAnimationFrame or others.
 
+## Observable
+
+> Observables are lazy Push collections of multiple values.
+
+```sh
+node observable.js
+```
+
+### Pull versus Push
+
+**What is Pull?** In Pull systems, the Consumer determines when it receives data from the data Producer. The Producer itself is unaware of when the data will be delivered to the Consumer.
+
+**What is Push?** In Push systems, the Producer determines when to send data to the Consumer. The Consumer is unaware of when it will receive that data.
+
 ## Documents
 
 - [Introduction](https://rxjs.dev/guide/overview)
