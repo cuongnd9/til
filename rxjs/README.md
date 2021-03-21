@@ -29,6 +29,12 @@ node observable.js
 
 **What is Push?** In Push systems, the Producer determines when to send data to the Consumer. The Consumer is unaware of when it will receive that data.
 
+Promises are the most common type of Push system in JavaScript today. A Promise (the Producer) delivers a resolved value to registered callbacks (the Consumers), but unlike functions, it is the Promise which is in charge of determining precisely when that value is "pushed" to the callbacks.
+
+RxJS introduces Observables, a new Push system for JavaScript. An Observable is a Producer of multiple values, "pushing" them to Observers (Consumers).
+
+> What is the difference between an Observable and a function? Observables can "return" multiple values over time.
+
 ## Documents
 
 - [Introduction](https://rxjs.dev/guide/overview)
