@@ -23,6 +23,13 @@ Think of RxJS as Lodash for events.
 node observable.js
 ```
 
+```sh
+1
+2
+3
+4
+```
+
 ### Pull versus Push
 
 **What is Pull?** In Pull systems, the Consumer determines when it receives data from the data Producer. The Producer itself is unaware of when the data will be delivered to the Consumer.
@@ -34,6 +41,16 @@ Promises are the most common type of Push system in JavaScript today. A Promise 
 RxJS introduces Observables, a new Push system for JavaScript. An Observable is a Producer of multiple values, "pushing" them to Observers (Consumers).
 
 > What is the difference between an Observable and a function? Observables can "return" multiple values over time.
+
+https://rxjs.dev/guide/observable
+
+## Observer
+
+**What is an Observer?** An Observer is a consumer of values delivered by an Observable. Observers are simply a set of callbacks, one for each type of notification delivered by the Observable: next, error, and complete.
+
+```sh
+node observer.js
+```
 
 ## Documents
 
