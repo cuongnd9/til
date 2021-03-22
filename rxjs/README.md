@@ -23,13 +23,6 @@ Think of RxJS as Lodash for events.
 node observable.js
 ```
 
-```sh
-1
-2
-3
-4
-```
-
 ### Pull versus Push
 
 **What is Pull?** In Pull systems, the Consumer determines when it receives data from the data Producer. The Producer itself is unaware of when the data will be delivered to the Consumer.
@@ -52,6 +45,21 @@ https://rxjs.dev/guide/observable
 node observer.js
 ```
 
+## Operators
+
+```sh
+node operators.js
+```
+
+> A Pipeable Operator is a function that takes an Observable as its input and returns another Observable. It is a pure operation: the previous Observable stays unmodified.
+
+- mergeAll() — subscribes to each inner Observable as it arrives, then emits each value as it arrives
+- switchAll() — subscribes to the first inner Observable when it arrives, and emits each value as it arrives, but when the next inner Observable arrives, unsubscribes to the previous one, and subscribes to the new one.
+- exhaust() — subscribes to the first inner Observable when it arrives, and emits each value as it arrives, discarding all newly arriving inner Observables until that first one completes, then waits for the next inner Observable.
+
+https://rxjs.dev/guide/operators
+
 ## Documents
 
 - [Introduction](https://rxjs.dev/guide/overview)
+- [Interactive diagrams of Rx Observables](https://rxmarbles.com/)
