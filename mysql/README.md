@@ -1,3 +1,9 @@
 # mysql
 
-- [ ] MySQL Views
+## Schema, Database, Table, Column, View
+
+## Raw Query
+
+## TypeORM
+
+## Master - Slave
