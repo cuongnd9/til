@@ -59,6 +59,14 @@ node operators.js
 
 https://rxjs.dev/guide/operators
 
+## Subscription
+
+**What is a Subscription?** A Subscription is an object that represents a disposable resource, usually the execution of an Observable. A Subscription has one important method, unsubscribe, that takes no argument and just disposes the resource held by the subscription. In previous versions of RxJS, Subscription was called "Disposable".
+
+```sh
+node subscription.js
+```
+
 ## Documents
 
 - [Introduction](https://rxjs.dev/guide/overview)
