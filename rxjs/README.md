@@ -67,6 +67,18 @@ https://rxjs.dev/guide/operators
 node subscription.js
 ```
 
+## Subject
+
+A Subject is like an Observable, but can multicast to many Observers. Subjects are like EventEmitters: they maintain a registry of many listeners.
+
+```sh
+node subject.js
+```
+
+## Scheduler
+
+...
+
 ## Documents
 
 - [Introduction](https://rxjs.dev/guide/overview)
