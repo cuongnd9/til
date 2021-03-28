@@ -2,9 +2,9 @@
 
 today i learned (til) | kimcuong
 
-- 🐈 [RxJS](./rxjs): *need to complete Subject & Scheduler*
+- 💅 [RxJS](./rxjs): *need to complete Subject & Scheduler*
 - [Design Pattern](./design-pattern)
-- [NestJS](./nestjs)
+- 🐈 [NestJS](./nestjs)
 - [ReactJS](./reactjs)
 - [MobX](./mobx)
 - [MySQL](./mysql)
