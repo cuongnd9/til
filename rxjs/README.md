@@ -77,7 +77,11 @@ node subject.js
 
 ## Scheduler
 
-...
+A Scheduler lets you define in what execution context will an Observable deliver notifications to its Observer
+
+```sh
+node scheduler.js
+```
 
 ## Documents
 

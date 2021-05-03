@@ -10,4 +10,5 @@ today i learned (til) | kimcuong
 - [MobX](./mobx)
 - [MySQL](./mysql)
 - [PM2](./pm2)
+- [Jenkins](./jenkins)
 - [Stylus](./stylus)
