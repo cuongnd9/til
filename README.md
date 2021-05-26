@@ -3,7 +3,7 @@
 today i learned (til) | kimcuong
 
 - [Design Pattern](./design-pattern)
-- 🐈 [RxJS](./rxjs): *need to complete Subject & Scheduler*
+- [RxJS](./rxjs): *need to complete Subject & Scheduler*
 - [NodeJS](./nodejs)
 - [NestJS](./nestjs)
 - [ReactJS](./reactjs)
