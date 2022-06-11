@@ -1,4 +1,5 @@
-# til
+🆘 deprecated 🆘
+# til 
 
 today i learned (til) | kimcuong
 
